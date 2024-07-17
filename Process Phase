@@ -1,0 +1,53 @@
+-- Process Phase
+-- Identify and Remove Null and Duplicate Values
+
+-- Identify and Remove Null Values
+
+SELECT [ride_id]
+      ,[rideable_type]
+      ,[started_at]
+      ,[ended_at]
+      ,[start_station_name]
+      ,[end_station_name]
+      ,[member_casual]
+  FROM [cyclistic_bike_share].[dbo].[cyclistic_12months]
+  WHERE
+  [ride_id] IS NULL 
+  OR [rideable_type] IS NULL
+  OR [started_at] IS NULL
+  OR [ended_at] IS NULL
+  OR [start_station_name] IS NULL
+  OR [end_station_name] IS NULL
+  OR [member_casual] IS NULL;
+
+DELETE FROM [cyclistic_bike_share].[dbo].[cyclistic_12months]
+  WHERE
+  [ride_id] IS NULL 
+  OR [rideable_type] IS NULL
+  OR [started_at] IS NULL
+  OR [ended_at] IS NULL
+  OR [start_station_name] IS NULL
+  OR [end_station_name] IS NULL
+  OR [member_casual] IS NULL;
+-- (241320 rows affected) After this query 
+
+-- Identify and Remove Duplicate Values
+SELECT ride_id
+      ,rideable_type
+      ,started_at
+      ,ended_at
+      ,start_station_name
+      ,end_station_name
+      ,member_casual
+	  ,COUNT(*) AS duplicatecount
+FROM cyclistic_12months
+GROUP BY
+ride_id
+,rideable_type
+,started_at
+,ended_at
+,start_station_name
+,end_station_name
+,member_casual
+HAVING COUNT(*) > 1;
+-- We don't have Duplicate Values (0 rows returned)
