@@ -29,7 +29,7 @@ DELETE FROM [cyclistic_bike_share].[dbo].[cyclistic_12months]
   OR [start_station_name] IS NULL
   OR [end_station_name] IS NULL
   OR [member_casual] IS NULL;
--- (241320 rows affected) After this query 
+-- (1 387 808 rows affected) After this query
 
 -- Identify and Remove Duplicate Values
 SELECT ride_id
