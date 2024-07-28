@@ -19,6 +19,14 @@ member_casual
 ORDER BY
 COUNT(ride_id) DESC;
 
+-- Average ride lenght
+SELECT member_casual,
+	ROUND(MAX(DATEDIFF(second, started_at, ended_at) / 60.0), 2) AS avg_ride_length,
+	ROUND(MIN(DATEDIFF(second, started_at, ended_at) / 60.0), 2) AS avg_ride_length,
+	ROUND(AVG(DATEDIFF(second, started_at, ended_at) / 60.0), 2) AS avg_ride_length
+FROM cyclistic_bike
+GROUP BY member_casual;
+
 -- Mostly used start station by member and casual users
 SELECT TOP 10
 COUNT(ride_id) AS no_of_riders,
@@ -45,7 +53,6 @@ COUNT(ride_id) DESC;
 
 
 -- Starter time analysis by member and casual users
-
 -- Month analysis
 SELECT
 COUNT(ride_id) AS no_of_users,
