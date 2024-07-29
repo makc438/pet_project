@@ -26,5 +26,33 @@ But i need to answer on the first question:
 
 ## Prepare
 ### Data
-[data]https://divvy-tripdata.s3.amazonaws.com/index.html I used data from 202301-divvy-tripdata to 202312-divvy-tripdata
+[data](https://divvy-tripdata.s3.amazonaws.com/index.html) I used data from 202301-divvy-tripdata to 202312-divvy-tripdata
 Data Range January 2023 - December 2023
+
+**The dataset contains the following columns:** <br>
+- ride_id: Unique identifier for each ride
+- rideable_type: Type of bike used
+- started_at: Start date and time of the ride
+- ended_at: End date and time of the ride
+- start_station_name: Name of the start station
+- end_station_name: Name of the end station
+- member_casual: Type of user (member or casual)
+
+
+[Data Combine](https://github.com/makc438/pet_project/blob/main/Combine_Data)
+After loading the data, I combined it into a single SQL file.
+Then I deleted the following rows:
+start_station_id, end_station_id, start_lat, start_lng, end_lat and end_lng.
+Because they didn't help me analyze the data.
+
+## Process
+[Process Phase](https://github.com/makc438/pet_project/blob/main/Process%20Phase)
+### Data Cleaning
+### Identify and Remove Null Values
+First, I identified rows with null values in crucial columns and then removed these rows.
+Before this query, the dataset contained 5,719,877 rows. After removing 1,387,808 rows with null values, the dataset was reduced to 4,332,069 rows.
+
+### Identify and Remove Duplicate Values
+Next, I checked for duplicate rows in the dataset based on crucial columns. The query returned no duplicate values, confirming the data's uniqueness.
+
+# Analyze
