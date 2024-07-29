@@ -59,8 +59,8 @@ Next, I checked for duplicate rows in the dataset based on crucial columns. The 
 ## Analyze
 **Objective:** Analyze how annual members and casual riders use Cyclistic bikes differently.
 Tools Used: <br>
-SQL Server Management Studio - Used for writing queries
-Power BI - Used for data visualization
+- SQL Server Management Studio - Used for writing queries.
+- Power BI - Used for data visualization.
 
 ### Rides by member and casual users
 Comparison of the total number of rides taken by annual members versus casual riders.
@@ -70,3 +70,9 @@ Comparison of the total number of rides taken by annual members versus casual ri
 
 ### Total Rides by Bike Type and User Type
 Analysis of how different types of bikes are used by annual participants and regular riders.
+![Total Type](https://github.com/user-attachments/assets/25f1760a-9fe6-47cc-a857-2a927f387e15)
+**Bike Type Preferences:** <br>
+- Classic Bikes are the most popular among both annual members (1,817,826 rides) and casual riders (873,063 rides).
+- Electric Bikes are also favored by annual members (982,302 rides), though less so by casual riders (582,638 rides).
+- Docked Bikes are primarily used by casual riders (76,240 rides) with minimal use by annual members.
+This suggests that while annual members prefer classic and electric bikes significantly more than casual riders, casual riders have a notable preference for docked bikes.
