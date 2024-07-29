@@ -64,7 +64,7 @@ Power BI - Used for data visualization
 
 ### Rides by member and casual users
 Comparison of the total number of rides taken by annual members versus casual riders.
-[total_rider](https://github.com/makc438/pet_project/issues/1#issue-2436223816)
+[total_rider](![image](https://github.com/user-attachments/assets/6d7fa917-2260-42bc-8d63-44c86b4f47c4))
 **Key Insights:** <br>
 - Ride Frequency Comparison: Annual members have taken significantly more rides (2,800,128 or 64,64%) compared to casual riders (1,531,941 or 35,36%). This indicates that annual members are more frequent users of the bike share system than casual riders.
 
