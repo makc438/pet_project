@@ -26,8 +26,9 @@ But i need to answer on the first question:
 
 ## Prepare
 ### Data
-[data](https://divvy-tripdata.s3.amazonaws.com/index.html) I used data from 202301-divvy-tripdata to 202312-divvy-tripdata
+[Data Source](https://divvy-tripdata.s3.amazonaws.com/index.html) I used data from 202301-divvy-tripdata to 202312-divvy-tripdata
 Data Range January 2023 - December 2023
+I used SQL Server Management Studio to Prepare, Process and Analyze data.
 
 **The dataset contains the following columns:** <br>
 - ride_id: Unique identifier for each ride
@@ -55,4 +56,17 @@ Before this query, the dataset contained 5,719,877 rows. After removing 1,387,80
 ### Identify and Remove Duplicate Values
 Next, I checked for duplicate rows in the dataset based on crucial columns. The query returned no duplicate values, confirming the data's uniqueness.
 
-# Analyze
+## Analyze
+**Objective:** Analyze how annual members and casual riders use Cyclistic bikes differently.
+Tools Used: <br>
+SQL Server Management Studio - Used for writing queries
+Power BI - Used for data visualization
+
+### Rides by member and casual users
+Comparison of the total number of rides taken by annual members versus casual riders.
+[total_rider](https://github.com/makc438/pet_project/issues/1#issue-2436223816)
+**Key Insights:** <br>
+- Ride Frequency Comparison: Annual members have taken significantly more rides (2,800,128 or 64,64%) compared to casual riders (1,531,941 or 35,36%). This indicates that annual members are more frequent users of the bike share system than casual riders.
+
+### Total Rides by Bike Type and User Type
+Analysis of how different types of bikes are used by annual participants and regular riders.
