@@ -71,9 +71,29 @@ Comparison of the total number of rides taken by annual members versus casual ri
 ### Total Rides by Bike Type and User Type
 Analysis of how different types of bikes are used by annual participants and regular riders.
 ![Total Type](https://github.com/user-attachments/assets/25f1760a-9fe6-47cc-a857-2a927f387e15)
+**Key Insights:**
 **Bike Type Preferences:** <br>
 - Classic Bikes are the most popular among both annual members (1,817,826 rides) and casual riders (873,063 rides).
 - Electric Bikes are also favored by annual members (982,302 rides), though less so by casual riders (582,638 rides).
 - Docked Bikes are primarily used by casual riders (76,240 rides) with minimal use by annual members.
 
 This suggests that while annual members prefer classic and electric bikes significantly more than casual riders, casual riders have a notable preference for docked bikes.
+
+### Average ride lenght
+Сompare the average ride length between annual members and casual riders.
+![Average ride lenght](https://github.com/user-attachments/assets/0af40448-5a99-48e7-9661-22e1d1dfe011)
+**Results:** <br>
+- Annual Members: 12.13 minutes
+- Casual Riders: 22.94 minutes
+
+**Key Insights:** <br>
+- **Ride Duration Comparison:** <br>
+- Annual Members have a significantly shorter average ride length of 12.13 minutes compared to Casual Riders, who average 22.94 minutes. This indicates that casual riders typically use the bike share system for longer durations per ride compared to annual members.
+
+### Mostly used start station by member and casual users
+Identify and compare the top start stations used by annual members versus casual riders.
+![Mostly used start station](https://github.com/user-attachments/assets/1e6ad5e4-f156-4261-87a2-0fe9acfe1426)
+**Key Insights:** <br>
+- Popular Start Stations: Casual riders frequently use stations like Streeter Dr & Grand Ave and DuSable Lake Shore Dr & Monroe St, while annual members favor stations such as Clinton St & Washington Blvd and Kingsbury St & Kinzie St.
+- Usage Patterns: The data shows that certain stations are notably more popular among one user type compared to the other, reflecting different usage patterns and preferences.
+
