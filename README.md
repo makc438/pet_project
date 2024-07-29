@@ -75,4 +75,5 @@ Analysis of how different types of bikes are used by annual participants and reg
 - Classic Bikes are the most popular among both annual members (1,817,826 rides) and casual riders (873,063 rides).
 - Electric Bikes are also favored by annual members (982,302 rides), though less so by casual riders (582,638 rides).
 - Docked Bikes are primarily used by casual riders (76,240 rides) with minimal use by annual members.
+
 This suggests that while annual members prefer classic and electric bikes significantly more than casual riders, casual riders have a notable preference for docked bikes.
