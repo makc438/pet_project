@@ -86,8 +86,8 @@ This suggests that while annual members prefer classic and electric bikes signif
 - Annual Members: 12.13 minutes
 - Casual Riders: 22.94 minutes
 
-**Key Insights:** <br>
-- **Ride Duration Comparison:** <br>
+**Key Insights:**
+**Ride Duration Comparison:** <br>
 - Annual Members have a significantly shorter average ride length of 12.13 minutes compared to Casual Riders, who average 22.94 minutes. This indicates that casual riders typically use the bike share system for longer durations per ride compared to annual members.
 
 ### Mostly used start station by member and casual users
@@ -97,3 +97,26 @@ Identify and compare the top start stations used by annual members versus casual
 - Popular Start Stations: Casual riders frequently use stations like Streeter Dr & Grand Ave and DuSable Lake Shore Dr & Monroe St, while annual members favor stations such as Clinton St & Washington Blvd and Kingsbury St & Kinzie St.
 - Usage Patterns: The data shows that certain stations are notably more popular among one user type compared to the other, reflecting different usage patterns and preferences.
 
+### Monthly Trip Distribution by User Type
+Distribution of trip counts by month for annual members and casual riders, identifying seasonal trends.
+![Monthly Trip](https://github.com/user-attachments/assets/06546953-35ec-4840-9f64-9acd6b91af19)
+**Key Insights:**
+**Seasonal Trends:** <br>
+- Annual Members: Peak usage in the summer months (June, July, August), with the highest number of trips in August (351,063). Usage declines during the colder months, but members still maintain a higher baseline of trips compared to casual riders.
+- Casual Riders: Also exhibit peak usage in the summer months, with the highest number of trips in July (245,359). However, their usage drops more sharply during the colder months compared to annual members.
+
+### Weekly Trip Distribution by User Type
+The distribution of trip counts by day of the week for annual members and casual riders.
+![Weekly Trip](https://github.com/user-attachments/assets/d2878b7c-2c9e-4cf5-b53d-94f5d490d449)
+**Key Insights:**
+**Daily Usage Patterns:** <br>
+- Annual Members: The highest number of trips occur mid-week, with peak usage on Wednesday (452,744 trips) and Thursday (452,690 trips). The number of trips decreases towards the weekend, with the lowest on Sunday (307,890 trips).
+- Casual Riders: The highest number of trips occur on weekends, with peak usage on Saturday (310,195 trips) and Sunday (254,796 trips). The number of trips is lower during the weekdays, with Monday (175,433 trips) being the least busy day.
+
+### Hourly Trip Distribution by User Type
+Distribution of trip counts by hour of the day for annual members and casual riders
+![image](https://github.com/user-attachments/assets/ec21fb22-378f-49ea-ab86-af1af42c7f42)
+**Key Insights:**
+**Hourly Usage Patterns:** <br>
+- Annual Members: The highest number of trips occur during evening rush hours, particularly at 17:00 (5 PM) with 303,528 trips, followed by 16:00 (4 PM) with 258,648 trips. There is also significant usage in the morning at 08:00 (8 AM) with 194,782 trips, indicating a strong pattern of commuting.
+- Casual Riders: The highest number of trips also occur at 17:00 (5 PM) with 150,656 trips, followed by 16:00 (4 PM) with 138,646 trips. However, casual riders have a more evenly distributed pattern throughout the day, with notable peaks during the afternoon hours.
