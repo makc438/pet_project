@@ -156,12 +156,12 @@ Visualization Power Bi - ![Google Drive - Power BI File](https://drive.google.co
 ### Act
 - **Recommendations:** <br>
 
-**Increase Membership:**
+- **Increase Membership:** <br>
   Develop marketing campaigns targeting casual riders to convert them to annual members, focusing on the benefits of membership. Highlight the benefits of annual membership, such as cost savings and convenience.
-**Optimize Bike Distribution:**
+- **Optimize Bike Distribution:** <br>
   Place more bikes at popular start and end stations identified for each user type to meet demand. Increase the number of bikes at top start and end stations during peak times.
-**Enhance User Experience:**
+- **Enhance User Experience:** <br>
   Improve the availability and maintenance of classic and electric bikes, particularly on weekends for casual riders. Implement a system to gather user feedback on bike conditions and station availability.
-**Seasonal Promotions:**
+- **Seasonal Promotions:** <br>
   Offer seasonal promotions and incentives to boost ridership during less busy months.
 
