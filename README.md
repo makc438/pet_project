@@ -105,6 +105,15 @@ Distribution of trip counts by month for annual members and casual riders, ident
 - Annual Members: Peak usage in the summer months (June, July, August), with the highest number of trips in August (351,063). Usage declines during the colder months, but members still maintain a higher baseline of trips compared to casual riders.
 - Casual Riders: Also exhibit peak usage in the summer months, with the highest number of trips in July (245,359). However, their usage drops more sharply during the colder months compared to annual members.
 
+### Monthly Average Ride Length by User Type
+Average ride length per month for annual members and casual riders.
+![monthlength](https://github.com/user-attachments/assets/4765f464-135e-4ddf-a9a9-6b47098efccd)
+**Key Insights:**
+
+**Monthly Ride Length Patterns:** <br>
+- Casual Riders: The average ride length for casual riders tends to be longer than that of annual members across all months. The peak average ride length occurs in July (25.22 minutes), followed by May (24.52 minutes) and June (24.07 minutes).
+- Annual Members: The average ride length for annual members is relatively consistent, with a slight increase during the summer months. The peak average ride length occurs in July (13.35 minutes) and August (13.31 minutes).
+
 ### Weekly Trip Distribution by User Type
 The distribution of trip counts by day of the week for annual members and casual riders.
 ![Weekly Trip](https://github.com/user-attachments/assets/d2878b7c-2c9e-4cf5-b53d-94f5d490d449)
@@ -113,8 +122,17 @@ The distribution of trip counts by day of the week for annual members and casual
 - Annual Members: The highest number of trips occur mid-week, with peak usage on Wednesday (452,744 trips) and Thursday (452,690 trips). The number of trips decreases towards the weekend, with the lowest on Sunday (307,890 trips).
 - Casual Riders: The highest number of trips occur on weekends, with peak usage on Saturday (310,195 trips) and Sunday (254,796 trips). The number of trips is lower during the weekdays, with Monday (175,433 trips) being the least busy day.
 
+### Average Ride Length by Day of the Week and User Type
+Average ride length for each day of the week for annual members and casual riders.
+![weeklength](https://github.com/user-attachments/assets/8a7945a1-7c37-457a-a10a-1487a94b23be)
+**Key Insights:**
+
+**Daily Ride Length Patterns:** <br>
+- Casual Riders: The average ride length for casual riders tends to be longer than that of annual members across all days. The peak average ride length occurs on Sunday (26.56 minutes) and Saturday (25.92 minutes).
+- Annual Members: The average ride length for annual members is relatively consistent, with slightly longer rides on weekends. The peak average ride length occurs on Sunday (13.61 minutes) and Saturday (13.58 minutes).
+
 ### Hourly Trip Distribution by User Type
-Distribution of trip counts by hour of the day for annual members and casual riders
+Distribution of trip counts by hour of the day for annual members and casual riders.
 ![image](https://github.com/user-attachments/assets/ec21fb22-378f-49ea-ab86-af1af42c7f42)
 **Key Insights:**
 **Hourly Usage Patterns:** <br>
