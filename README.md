@@ -154,7 +154,7 @@ Visualization Power Bi - ![Google Drive - Power BI File](https://drive.google.co
 - Time of Use: Peak usage times and days were analyzed, showing that members tend to ride during weekdays, while casual riders peak during weekends.
 
 ### Act
-- **Recommendations:** <br>
+**Recommendations:** <br>
 
 - **Increase Membership:** <br>
   Develop marketing campaigns targeting casual riders to convert them to annual members, focusing on the benefits of membership. Highlight the benefits of annual membership, such as cost savings and convenience.
