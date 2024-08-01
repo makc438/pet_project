@@ -147,11 +147,16 @@ Distribution of trip counts by hour of the day for annual members and casual rid
 ### Share
 Visualization Power Bi - ![Google Drive - Power BI File](https://drive.google.com/file/d/1f4G633sg1UsiSCyDIdMbbvbpV-IvnpMM/view?usp=drive_link)
 **Key Findings:** <br>
-- Ride Frequency: Annual members took 2,800,128 rides, while casual riders took 1,531,941 rides.
-- Rideable Types: Annual members primarily used classic bikes (1,817,826 rides) and electric bikes (982,302 rides), whereas casual riders also preferred classic bikes (873,063 rides) and electric bikes (582,638 rides).
-- Station Usage: The most frequently used start and end stations for both user types were identified, with Streeter Dr & Grand Ave being the top station for casual riders.
-- Ride Length: The average ride length for casual riders was 22.94 minutes, compared to 12.13 minutes for annual members.
-- Time of Use: Peak usage times and days were analyzed, showing that members tend to ride during weekdays, while casual riders peak during weekends.
+- **Ride Frequency:** <br>
+Annual members took 2,800,128 rides, while casual riders took 1,531,941 rides.
+- **Rideable Types:** <br>
+Annual members primarily used classic bikes (1,817,826 rides) and electric bikes (982,302 rides), whereas casual riders also preferred classic bikes (873,063 rides) and electric bikes (582,638 rides).
+- **Station Usage:** <br>
+The most frequently used start and end stations for both user types were identified, with Streeter Dr & Grand Ave being the top station for casual riders.
+- **Ride Length:** <br>
+The average ride length for casual riders was 22.94 minutes, compared to 12.13 minutes for annual members.
+- **Time of Use:** <br>
+Peak usage times and days were analyzed, showing that members tend to ride during weekdays, while casual riders peak during weekends.
 
 ### Act
 **Recommendations:** <br>
