@@ -145,7 +145,8 @@ Distribution of trip counts by hour of the day for annual members and casual rid
 - Casual Riders: The highest number of trips also occur at 17:00 (5 PM) with 150,656 trips, followed by 16:00 (4 PM) with 138,646 trips. However, casual riders have a more evenly distributed pattern throughout the day, with notable peaks during the afternoon hours.
 
 ### Share
-Visualization Power Bi - ![Google Drive - Power BI File](https://drive.google.com/file/d/1f4G633sg1UsiSCyDIdMbbvbpV-IvnpMM/view?usp=drive_link)
+Visualization Power Bi in Google Drive - ![File](https://drive.google.com/file/d/1f4G633sg1UsiSCyDIdMbbvbpV-IvnpMM/view?usp=drive_link)
+
 **Key Findings:** <br>
 - **Ride Frequency:** <br>
 Annual members took 2,800,128 rides, while casual riders took 1,531,941 rides.
