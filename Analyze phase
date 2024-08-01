@@ -27,6 +27,22 @@ SELECT member_casual,
 FROM cyclistic_bike
 GROUP BY member_casual;
 
+-- Average ride lenght by Month
+SELECT member_casual,
+	ROUND(AVG(DATEDIFF(second, started_at, ended_at) / 60.0), 2) AS avg_ride_length,
+	DATEPART(MONTH, started_at) AS Month
+FROM cyclistic_bike
+GROUP BY member_casual, DATEPART(MONTH, started_at)
+ORDER BY MONTH, member_casual;
+
+-- Average ride lenght by Week
+SELECT member_casual,
+	ROUND(AVG(DATEDIFF(second, started_at, ended_at) / 60.0), 2) AS avg_ride_length,
+	DATEPART(WEEKDAY, started_at) AS Week_Day
+FROM cyclistic_bike
+GROUP BY member_casual, DATEPART(WEEKDAY, started_at)
+ORDER BY Week_Day, member_casual;
+
 -- Mostly used start station by member and casual users
 SELECT TOP 10
 COUNT(ride_id) AS no_of_riders,
