@@ -124,7 +124,7 @@ The distribution of trip counts by day of the week for annual members and casual
 #### Average Ride Length by Day of the Week and User Type
 Average ride length for each day of the week for annual members and casual riders.
 ![weeklength](https://github.com/user-attachments/assets/8a7945a1-7c37-457a-a10a-1487a94b23be)
-**Key Insights:**
+**Key Insights:** <br>
 **Daily Ride Length Patterns:** <br>
 - **Casual Riders:** The average ride length for casual riders tends to be longer than that of annual members across all days. The peak average ride length occurs on Sunday (26.56 minutes) and Saturday (25.92 minutes).
 - **Annual Members:** The average ride length for annual members is relatively consistent, with slightly longer rides on weekends. The peak average ride length occurs on Sunday (13.61 minutes) and Saturday (13.58 minutes).
