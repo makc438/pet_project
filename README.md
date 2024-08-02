@@ -2,7 +2,7 @@
 
 
 ## Introduction
-This project is part of the Google Data Analytics course and focuses on analyzing data from the Cyclistic Bike Share company. We explored bike usage data, created SQL queries for data processing, and visualized the data in Power BI. In order to answer the business questions, i follow the steps of the data analysis process: Ask, Prepare, Process, Analyze, Share, and Act.
+This project is part of the Google Data Analytics course and focuses on analyzing data from the Cyclistic Bike Share company. I explored bike usage data, created SQL queries for data processing, and visualized the data in Power BI. In order to answer the business questions, i follow the steps of the data analysis process: Ask, Prepare, Process, Analyze, Share, and Act.
 
 ## About Cyclistic Company
 Cyclistic is a Bike-share company in Chicago. The director of marketing believes the company’s future success depends on maximizing the number of annual memberships. Therefore, my team wants to understand how casual riders and annual members use Cyclistic bikes differently. From these insights, my team will design a new marketing strategy to convert casual riders into annual members. But first, Cyclistic executives must approve recommendations, so they must be backed up with compelling data insights and professional data visualizations.
@@ -138,7 +138,7 @@ Distribution of trip counts by hour of the day for annual members and casual rid
 - **Casual Riders:** The highest number of trips also occur at 17:00 (5 PM) with 150,656 trips, followed by 16:00 (4 PM) with 138,646 trips. However, casual riders have a more evenly distributed pattern throughout the day, with notable peaks during the afternoon hours.
 
 ### Share
-Visualization Power Bi in Google Drive - ![File](https://drive.google.com/file/d/1f4G633sg1UsiSCyDIdMbbvbpV-IvnpMM/view?usp=drive_link)
+Visualization Power Bi in Google Drive - [File](https://drive.google.com/file/d/1f4G633sg1UsiSCyDIdMbbvbpV-IvnpMM/view?usp=drive_link)
 
 **Key Findings:** <br>
 - **Ride Frequency:** <br>
